@@ -1,0 +1,43 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container__img{
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    flex: 1;
+    filter:brightness(0.75) grayscale(1);
+    transition: all 1s;
+}
+
+img:hover{
+    flex: 6;
+    filter: grayscale(0) brightness(1.15);
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 5rem;
+}
