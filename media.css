@@ -1,0 +1,12 @@
+@media (max-width: 425px){
+    .container__img{
+        width: 40rem;
+        height: 40rem;
+        padding: 5rem 3rem;
+
+    }
+    .name{
+        font-size: 3.2rem;
+    }
+    
+}
