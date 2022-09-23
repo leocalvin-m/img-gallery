@@ -7,6 +7,7 @@
     }
     .name{
         font-size: 3.2rem;
+            -webkit-text-stroke-width: 0.1rem;
     }
     
 }
